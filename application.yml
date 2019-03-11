@@ -1,5 +1,5 @@
 server:
-  port: 8002
+  port: 8003
 
 
 mybatis:
@@ -30,6 +30,3 @@ eureka:
     service-url:
       defaultZone: http://www.eureka7001.com:7001/eureka/,http://www.eureka7002.com:7002/eureka/
 
-info:
-  app.name: atguigu-microservicecloud
-  company.name: www.atguigu.com
