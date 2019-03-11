@@ -10,7 +10,7 @@ mybatis:
 
 spring:
    application:
-    name: providerdept02
+    name: providerdept
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型              # mysql驱动包
     driver-class-name: com.mysql.jdbc.Driver                                 # 等待连接获取的最大超时时间
