@@ -20,7 +20,7 @@ eureka:
     serviceUrl:
       defaultZone: http://www.eureka7001.com:7001/eureka/,http://www.eureka7002.com:7002/eureka/,http://www.eureka7002.com:7002/eureka/
   instance:
-    instance-id: order-8081
+    instance-id: storage-model
     prefer-ip-address: true
 info:
  projectDesception: this is config center test environment ...
@@ -37,6 +37,16 @@ spring:
     url: jdbc:mysql://localhost:3306/liudx-study?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8
     username: root
     password: 123456
+    
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://www.eureka7001.com:7001/eureka/,http://www.eureka7002.com:7002/eureka/,http://www.eureka7002.com:7002/eureka/
+  instance:
+    instance-id: storage-model
+    prefer-ip-address: true
 
 info:
  projectDesception: this is config center product environment ...
