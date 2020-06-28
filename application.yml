@@ -23,7 +23,7 @@ eureka:
     instance-id: storage-model
     prefer-ip-address: true
 info:
- projectDescription: this is config center test environment ...3
+ projectDescription: this is config center test environment ...5
 ---
 server:
   port: 8870
