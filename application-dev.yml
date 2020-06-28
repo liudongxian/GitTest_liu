@@ -1,0 +1,6 @@
+server:
+  port: 8870
+spring:
+  profiles: dev
+  application:
+    name: config-client
