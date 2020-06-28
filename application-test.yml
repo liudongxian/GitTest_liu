@@ -1,0 +1,6 @@
+server:
+  port: 8860
+spring:
+  profiles: test
+  application:
+    name: config-client
