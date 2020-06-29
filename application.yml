@@ -2,8 +2,6 @@ spring:
   profiles:
     active: test
 ---
-server:
-  port: 8860
 spring:
   profiles: test
   datasource:
@@ -24,10 +22,8 @@ eureka:
     prefer-ip-address: true
 info:
  projectDescription: this is config center test environment ...5
----
-server:
-  port: 8870
-  
+ 
+---  
 spring:
   profiles: product
   
