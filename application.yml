@@ -21,7 +21,7 @@ eureka:
     instance-id: storage-model-2
     prefer-ip-address: true
 info:
- projectDescription: this is config center test environment ...7
+ projectDescription: this is config center test environment ...8
  
 ---  
 spring:
